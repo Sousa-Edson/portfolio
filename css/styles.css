@@ -15,7 +15,7 @@
 /* Introduction */
 #introduction-section {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("https://raw.githubusercontent.com/Sousa-Edson/portifolio/main/img/papel-de-parede.jpg");
+    url("img/fundo1.jpg");
   background-position: center;
   background-size: cover;
   height: 85vh;
@@ -100,6 +100,9 @@
 }
 .btn:hover {
   opacity: 1;
+}
+.img-about{
+  border-radius: 1%; width: 500px;
 }
 
 /* technologies section */
@@ -425,11 +428,30 @@
 }
 @media (max-width: 422px) {
   #contact div {
-    width: 80%;
+    width: 100%;
     font-size: 10px;
     font-weight: 600;
   }
   #footer{
     padding: 10px;
+  }
+  #details {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .img-about{
+    width: 300px;
+    margin: 0 auto;
+  }
+  #details {
+    width: 98%;
+    margin: 0 auto;
+  }
+  .btn {
+    width:90%;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
   }
 }
