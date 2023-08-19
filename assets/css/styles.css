@@ -17,7 +17,7 @@
  /* Introduction */
  #introduction-section {
    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-     url("assets/img/fundo1.jpg");
+     url("https://raw.githubusercontent.com/Sousa-Edson/portifolio/main/assets/img/fundo1.jpg");
    background-position: center;
    background-size: cover;
    min-height: 85vh;
@@ -132,10 +132,10 @@ max-width: 500px;
 
 
  /* section formation */
- .formation {
+ #formation2 {
    min-height: 400px;
    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-     url("/assets/img/logistica_banner.png");
+     url("https://raw.githubusercontent.com/Sousa-Edson/portifolio/main/assets/img/logistica_banner.png");
    background-position: center;
    background-size: cover;
    display: flex;
@@ -145,10 +145,10 @@ max-width: 500px;
    margin-bottom: 3em;
  }
 
- .formation2 {
+ #formation {
    height: 400px;
    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-     url("/assets/img/informatica_banner.png");
+     url("https://raw.githubusercontent.com/Sousa-Edson/portifolio/main/assets/img/informatica_banner.png");
    background-position: center;
    background-size: cover;
    display: flex;
