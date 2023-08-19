@@ -20,7 +20,7 @@
      url("/assets/img/fundo1.jpg");
    background-position: center;
    background-size: cover;
-   height: 85vh;
+   min-height: 85vh;
    display: flex;
 
    justify-content: space-evenly;
@@ -74,7 +74,7 @@
    text-decoration: none;
    text-align: center;
    border-radius: 10px;
-
+max-width: 500px;
  }
 
  .btn:hover {
@@ -88,6 +88,10 @@
  }
 
  /* technologies section */
+ #technologies {
+   min-height: 75vh;
+ }
+
  .base-title {
    background-color: var(--secondary);
    text-align: center;
@@ -129,7 +133,7 @@
 
  /* section formation */
  .formation {
-   height: 400px;
+   min-height: 400px;
    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
      url("/assets/img/logistica_banner.png");
    background-position: center;
@@ -198,6 +202,7 @@
    justify-content: space-between;
    gap: 5%;
    margin-bottom: 4em;
+
  }
 
  .detail img {
@@ -208,6 +213,11 @@
    margin-bottom: 1em;
    font-size: 2em;
    font-weight: 500;
+
+ }
+
+ .detail-description {
+   align-self: center;
  }
 
  #detail-base h3 {
@@ -218,10 +228,6 @@
  .detail-description {
    width: 100%;
    padding-left: 2em;
- }
-
- #detail-3 .detail-description {
-   justify-self: flex-start;
  }
 
  .detail-description ul {
@@ -236,6 +242,10 @@
    font-weight: bold;
  }
 
+ .detail-description li a{
+  text-decoration: none;
+  color: var(--primary);
+ }
 
  /*  Contact Section */
  #contact {
@@ -326,7 +336,7 @@
    color: green;
  }
 
- 
+
 
  /* Mobile */
  @media (max-width: 844px) {
@@ -335,16 +345,34 @@
    #introduction-section {
      min-height: 600px;
    }
-   .about-formation{
-    font-size: .7em;
+
+   .about-formation {
+     font-size: .7em;
    }
 
    .img-about {
      width: 200px;
    }
-   .technology-img img{
-    width:1fr;
-    padding: 30px;
+
+   .technology-img img {
+     width: 1fr;
+     padding: 30px;
+   }
+
+   /*  details container */
+   .detail {
+     flex-direction: column;
+     /* margin-bottom: 0.5em; */
+     gap: 0;
+   }
+
+   .detail img {
+     width: 100%;
+     /* margin: 2em 0; */
+   }
+
+   .detail-description {
+     padding: 0;
    }
 
  }
