@@ -17,7 +17,7 @@
 /* Introduction */
 #introduction-section {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../img/fundo1.jpg");
+    url("/assets/img/fundo1.jpg");
   background-position: center;
   background-size: cover;
   height: 85vh;
@@ -129,7 +129,7 @@
 #formation {
   height: 400px;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../img/logistica_banner.png");
+    url("/assets/img/logistica_banner.png");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -141,7 +141,7 @@
 #formation2 {
   height: 400px;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../img/informatica_banner.png");
+    url("/assets/img/informatica_banner.png");
   background-position: center;
   background-size: cover;
   display: flex;
