@@ -31,3 +31,5 @@ Se você tiver alguma pergunta ou quiser entrar em contato, sinta-se à vontade 
 - [GitHub](https://github.com/Sousa-Edson)
 - [LinkedIn](https://www.linkedin.com/in/edson-sousa-b0769a181)
 - [Whatsapp](https://www.linkedin.com/in/edson-sousa-b0769a181](https://api.whatsapp.com/send?phone=5511998232603)https://api.whatsapp.com/send?phone=5511998232603)
+
+## Versão web, com tml e css puros
