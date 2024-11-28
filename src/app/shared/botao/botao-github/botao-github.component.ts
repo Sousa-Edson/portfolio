@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './botao-github.component.scss'
 })
 export class BotaoGithubComponent {
+  link = 'https://github.com/Sousa-Edson/';
 
+  abrirLink() {
+    window.open(this.link, '_blank');
+  }
 }

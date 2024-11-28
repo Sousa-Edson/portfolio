@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './botao-linkedin.component.scss'
 })
 export class BotaoLinkedinComponent {
+  link = 'https://www.linkedin.com/in/edson-sousa-b0769a181/';
+
+  abrirLink() {
+    window.open(this.link, '_blank');
+  }
 
 }

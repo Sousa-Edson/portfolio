@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
-import { BotaoLinkedinComponent } from "../../../shared/botao/botao-linkedin/botao-linkedin.component";
-import { BotaoGithubComponent } from "../../../shared/botao/botao-github/botao-github.component";
+import { Component } from '@angular/core'; 
+import { BotaoLinkedinComponent } from '../../../../shared/botao/botao-linkedin/botao-linkedin.component';
+import { BotaoGithubComponent } from '../../../../shared/botao/botao-github/botao-github.component';
 
 @Component({
   selector: 'app-header-apresentacao',

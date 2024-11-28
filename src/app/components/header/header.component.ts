@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
-import { HeaderApresentacaoComponent } from "./header-apresentacao/header-apresentacao.component";
-import { HeaderImagemComponent } from "./header-imagem/header-imagem.component";
+import { Component } from '@angular/core'; 
+import { HeaderApresentacaoComponent } from './components/header-apresentacao/header-apresentacao.component';
+import { HeaderImagemComponent } from './components/header-imagem/header-imagem.component';
 
 @Component({
   selector: 'app-header',
