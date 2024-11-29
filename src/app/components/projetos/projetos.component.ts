@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { BotaoGithubComponent } from "../../shared/botao/botao-github/botao-github.component";
+import { BotaoGithubComponent } from "../../shared/components/botoes/botao-github/botao-github.component";
 import { BotaoMaisProjetosComponent } from "./components/botao-mais-projetos/botao-mais-projetos.component";
 import { CardProjetoComponent } from "./components/card-projeto/card-projeto.component";
 import { Projeto } from './projeto-interface';
