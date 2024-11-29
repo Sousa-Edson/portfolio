@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { Projeto } from '../../projeto-interface';
 import { CommonModule } from '@angular/common';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-card-projeto',
@@ -11,7 +12,9 @@ import { CommonModule } from '@angular/common';
 })
 export class CardProjetoComponent {
   @Input() projeto: Projeto | null = null;
-  constructor() { }
+
+  constructor(private router: Router) { }
+
   private cores: Record<string, string> = {
     Angular: 'bg-red-100 text-red-600',
     TypeScript: 'bg-blue-100 text-blue-600',
@@ -26,4 +29,11 @@ export class CardProjetoComponent {
   getTecnologiaClasse(tecnologia: string): string {
     return this.cores[tecnologia] || 'bg-gray-100 text-gray-600'; // Classe padrão
   }
+
+  irParaDetalhe(id: number | undefined): void {
+    if (id) {
+      this.router.navigate(['/projetos', id]);
+    }
+  }
+
 }
