@@ -22,4 +22,18 @@ export const mockProjetos: Projeto[] = [
         imagem: "https://picsum.photos/300",
         tecnologias: ["Python", "Pandas", "Matplotlib"],
     },
+    {
+        id: 4,
+        titulo: "Projeto 4",
+        descricao: "Aplicação para gestão de tarefas, desenvolvida com React e Firebase.",
+        imagem: "https://picsum.photos/300",
+        tecnologias: ["React", "JavaScript", "Firebase"],
+    },
+    {
+        id: 5,
+        titulo: "Projeto 5",
+        descricao: "Sistema de controle de estoque com integração de API RESTful, utilizando Node.js e MongoDB.",
+        imagem: "https://picsum.photos/300",
+        tecnologias: ["Node.js", "Express", "MongoDB"],
+    },
 ];

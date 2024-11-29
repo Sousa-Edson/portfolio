@@ -8,11 +8,12 @@ import { TecnologiasComponent } from "./components/tecnologias/tecnologias.compo
 import { BotaoTemaComponent } from "./shared/components/botoes/botao-tema/botao-tema.component";
 import { ContatoComponent } from "./components/contato/contato.component";
 import { FooterComponent } from "./components/footer/footer.component";
+import { NavbarComponent } from "./components/navbar/navbar.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, CommonModule, HeaderComponent, TecnologiasComponent, ProjetosComponent, BotaoTemaComponent, SobreMinComponent, ContatoComponent, FooterComponent],
+  imports: [RouterOutlet, CommonModule, HeaderComponent, TecnologiasComponent, ProjetosComponent, BotaoTemaComponent, SobreMinComponent, ContatoComponent, FooterComponent, NavbarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
