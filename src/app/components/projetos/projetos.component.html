@@ -5,12 +5,15 @@
     <div *ngFor="let projeto of projetos">
       <app-card-projeto
         class="relative transition-transform duration-300 group-hover:opacity-100 hover:opacity-100 hover:scale-105"
-        [projeto]="projeto"></app-card-projeto>
+        [projeto]="projeto"
+      ></app-card-projeto>
     </div>
   </div>
 
   <!-- Botão de Mais Projetos -->
+  @if(modoHome==true){
   <div class="mt-10 text-center">
     <app-botao-mais-projetos></app-botao-mais-projetos>
   </div>
+  }
 </section>
