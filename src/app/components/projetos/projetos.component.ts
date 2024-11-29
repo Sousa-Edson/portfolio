@@ -4,11 +4,12 @@ import { BotaoMaisProjetosComponent } from "./components/botao-mais-projetos/bot
 import { CardProjetoComponent } from "./components/card-projeto/card-projeto.component";
 import { Projeto } from './projeto-interface';
 import { mockProjetos } from './mock-projetos';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-projetos',
   standalone: true,
-  imports: [BotaoMaisProjetosComponent, CardProjetoComponent],
+  imports: [CommonModule, BotaoMaisProjetosComponent, CardProjetoComponent],
   templateUrl: './projetos.component.html',
   styleUrl: './projetos.component.scss'
 })

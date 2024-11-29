@@ -1,0 +1,5 @@
+.group:hover>div:not(:hover) app-card-projeto {
+    filter: grayscale(100%);
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}

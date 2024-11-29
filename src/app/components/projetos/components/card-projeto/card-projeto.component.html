@@ -1,23 +1,18 @@
 <div
-  class="bg-white shadow-md rounded-lg overflow-hidden transition-all duration-300 transform hover:scale-105"
->
+  class="bg-white min-h-80 shadow-md rounded-lg overflow-hidden transition-all duration-300 transform hover:scale-105 cursor-pointer flex flex-col">
   <!-- Imagem do Projeto -->
-  <img
-    [src]="projeto?.imagem"
-    [alt]="projeto?.titulo"
-    class="w-full h-40 object-cover"
-  />
-  <div class="p-4">
+  <img [src]="projeto?.imagem" [alt]="projeto?.titulo" class="w-full h-40 object-cover" />
+
+  <!-- Conteúdo do Card -->
+  <div class="p-4 flex flex-col flex-grow">
     <!-- Título do Projeto -->
     <h3 class="text-xl font-semibold mb-2">{{ projeto?.titulo }}</h3>
     <!-- Descrição do Projeto -->
-    <p class="text-gray-600 text-sm">{{ projeto?.descricao }}</p>
+    <p class="text-gray-600 text-sm flex-grow">{{ projeto?.descricao }}</p>
     <!-- Pills de Tecnologias -->
-    <div class="mt-3 flex flex-wrap gap-2">
-      <span
-        *ngFor="let tecnologia of projeto?.tecnologias"
-        class="bg-blue-100 text-blue-600 text-xs font-medium px-3 py-1 rounded-full"
-      >
+    <div class="mt-3 flex flex-wrap gap-2  ">
+      <span *ngFor="let tecnologia of projeto?.tecnologias" [ngClass]="getTecnologiaClasse(tecnologia)"
+        class="bg-blue-100 text-blue-600 text-xs font-medium px-3 py-1 rounded-full">
         {{ tecnologia }}
       </span>
     </div>
