@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { ContatoComponent as contato } from "../../components/contato/contato.component";
 
 @Component({
-  selector: 'app-contato',
+  selector: 'app-contato-page',
   standalone: true,
-  imports: [],
+  imports: [contato],
   templateUrl: './contato.component.html',
   styleUrl: './contato.component.scss'
 })
