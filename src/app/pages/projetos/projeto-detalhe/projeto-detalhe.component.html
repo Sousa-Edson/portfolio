@@ -1,1 +1,69 @@
-<p>projeto-detalhe works!</p>
+<div *ngIf="projeto" class="mx-auto mt-10 max-w-4xl p-6">
+  <!-- Título do Projeto -->
+  <h2 class="text-3xl font-bold">{{ projeto.titulo }}</h2>
+
+  <!-- Descrição Resumida -->
+  <p
+    class="text-gray-600 dark:text-gray-200 font-semibold bg-yellow-500 dark:bg-blue-500 mb-4 p-2 rounded"
+  >
+    {{ projeto.descricaoResumida }}
+  </p>
+
+  <!-- Imagem Principal -->
+  <img
+    [src]="projeto.imagemPrincipal"
+    [alt]="projeto.titulo"
+    class="w-full h-80 object-cover my-4 rounded-lg"
+  />
+
+  <!-- Descrição Completa -->
+  <div class="text-gray-600 space-y-4">
+    <p
+      class="text-gray-600"
+      *ngFor="let paragrafo of projeto.descricaoCompleta"
+    >
+      {{ paragrafo }}
+    </p>
+  </div>
+
+  <!-- Lista de Imagens -->
+  <div
+    *ngIf="projeto.imagemLista && projeto.imagemLista.length > 0"
+    class="mt-6"
+  >
+    <h3 class="text-2xl font-semibold mb-3">Imagens</h3>
+    <div class="flex gap-4 overflow-x-auto">
+      <img
+        *ngFor="let imagem of projeto.imagemLista"
+        [src]="imagem"
+        [alt]="'Imagem do Projeto'"
+        class="w-32 h-32 object-cover rounded-lg shadow-md"
+      />
+    </div>
+  </div>
+
+  <!-- Lista de Vídeos -->
+  <div *ngIf="projeto.videoLista && projeto.videoLista.length > 0" class="mt-6">
+    <h3 class="text-2xl font-semibold mb-3">Vídeos</h3>
+    <div class="flex gap-4 overflow-x-auto">
+      <iframe
+        *ngFor="let video of projeto.videoLista"
+        [src]="video"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        class="w-48 h-28 rounded-lg shadow-md"
+      ></iframe>
+    </div>
+  </div>
+
+  <!-- Tecnologias -->
+  <div class="mt-4">
+    <span
+      *ngFor="let tecnologia of projeto.tecnologias"
+      class="bg-blue-100 text-blue-600 text-xs font-medium px-3 py-1 rounded-full mr-2"
+    >
+      {{ tecnologia }}
+    </span>
+  </div>
+</div>
