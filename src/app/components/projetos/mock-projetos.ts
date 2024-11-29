@@ -62,8 +62,7 @@ export const mockProjetos: Projeto[] = [
         ],
         imagemPrincipal: "https://picsum.photos/300",
         imagemLista: ["https://picsum.photos/300/206", "https://picsum.photos/300/207"],
-        tecnologias: ["React", "JavaScript", "Firebase"],
-        videoPrincipal: "https://www.youtube.com/embed/1_CmuiKie0o?si=C_VQRGxR7-874CX-"
+        tecnologias: ["React", "JavaScript", "Firebase"]
     },
     {
         id: 5,
