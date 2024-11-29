@@ -6,10 +6,12 @@
         <app-sobre-min-imagem />
       </div>
       <div class="md:w-1/2">
-        <app-sobre-min-conteudo />
+        <app-sobre-min-conteudo [modoHome]="modoHome" />
       </div>
     </div>
+    @if(modoHome==false){
     <app-sobre-min-video-apresentacao />
+    }
   </div>
   <!-- Botão de mais sobre min -->
   @if(modoHome==true){

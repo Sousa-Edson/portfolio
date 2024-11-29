@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-sobre-min-conteudo',
@@ -11,6 +11,9 @@ import { Component } from '@angular/core';
   styleUrl: './sobre-min-conteudo.component.scss'
 })
 export class SobreMinConteudoComponent {
+
+  @Input() modoHome = false;
+  
   abrirWhatsApp() {
     const numeroWhatsApp = '5511998232603';
     const isMobile = /Mobi|Android|iPhone|iPad|iPod|Windows Phone/i.test(navigator.userAgent);
