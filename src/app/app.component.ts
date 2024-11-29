@@ -6,11 +6,13 @@ import { ProjetosComponent } from "./components/projetos/projetos.component";
 import { SobreMinComponent } from "./components/sobre-min/sobre-min.component";
 import { TecnologiasComponent } from "./components/tecnologias/tecnologias.component";
 import { BotaoTemaComponent } from "./shared/components/botoes/botao-tema/botao-tema.component";
+import { ContatoComponent } from "./components/contato/contato.component";
+import { FooterComponent } from "./components/footer/footer.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, CommonModule, HeaderComponent, TecnologiasComponent, ProjetosComponent, BotaoTemaComponent, SobreMinComponent],
+  imports: [RouterOutlet, CommonModule, HeaderComponent, TecnologiasComponent, ProjetosComponent, BotaoTemaComponent, SobreMinComponent, ContatoComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
