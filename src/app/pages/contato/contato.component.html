@@ -1,0 +1,31 @@
+<section class="mx-auto mt-3 max-w-4xl h-auto   py-16">
+    <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-6">Entre em Contato</h2>
+        <p class="text-lg text-center text-gray-800 dark:text-gray-200 mb-6">
+            Se você tiver alguma dúvida ou gostaria de conversar sobre possíveis projetos, fique à vontade para me
+            enviar uma mensagem através das minhas redes sociais ou por e-mail!
+        </p>
+        <div class="flex justify-center space-x-6">
+            <!-- Botão WhatsApp -->
+            <button (click)="abrirWhatsApp()"
+                class="flex items-center space-x-2 px-6 py-3 bg-green-500 text-white text-lg font-semibold rounded-lg hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300">
+                <i class="fab fa-whatsapp"></i>
+                <span>WhatsApp</span>
+            </button>
+
+            <!-- Botão Instagram -->
+            <button (click)="abrirInstagram()"
+                class="flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-pink-500 to-orange-500 text-white text-lg font-semibold rounded-lg hover:bg-gradient-to-r hover:from-pink-600 hover:to-orange-600 focus:outline-none focus:ring-2 focus:ring-pink-500 transition duration-300">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+            </button>
+
+            <!-- Botão E-mail -->
+            <button (click)="abrirEmail()"
+                class="flex items-center space-x-2 px-6 py-3 bg-blue-600 text-white text-lg font-semibold rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-300">
+                <i class="fas fa-envelope"></i>
+                <span>E-mail</span>
+            </button>
+        </div>
+    </div>
+</section>

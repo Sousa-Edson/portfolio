@@ -1,10 +1,15 @@
 import { Component } from '@angular/core';
 import { BotaoTemaComponent } from "../../shared/components/botoes/botao-tema/botao-tema.component";
+import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [BotaoTemaComponent],
+  imports: [
+    RouterLink,
+    RouterLinkActive,
+    BotaoTemaComponent
+  ],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss'
 })

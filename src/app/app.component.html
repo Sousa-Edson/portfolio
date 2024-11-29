@@ -1,12 +1,6 @@
-<div class=" transition-all duration-500 ease-in-out">
-    <!-- <app-botao-tema /> -->
-    <router-outlet></router-outlet>
+<div class=" transition-all duration-500 ease-in-out min-h-screen flex flex-col">
     <app-navbar class="fixed top-0 left-0 w-full z-50" />
-    <app-header class="pt-32" />
-    <app-tecnologias />
-    <app-projetos />
-    <app-sobre-min />
-    <app-contato />
-    <app-footer />
-
+    <div class="mt-20"></div>
+    <router-outlet></router-outlet>
+    <app-footer class="mt-auto" />
 </div>
