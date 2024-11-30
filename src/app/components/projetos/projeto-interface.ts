@@ -1,6 +1,7 @@
 export interface Projeto {
     id: number;
     titulo: string;
+    link?: string;
     descricaoResumida: string;
     descricaoCompleta: string[];
     imagemPrincipal: string;

@@ -4,6 +4,7 @@ export const mockProjetos: Projeto[] = [
     {
         id: 1,
         titulo: "Adote Fácil",
+        link: "https://github.com/Sousa-Edson/adocao-animais",
         descricaoResumida: "Este projeto foi feito como TCC na FIEB.",
         descricaoCompleta: [
             "O projeto é uma aplicação web desenvolvida como Trabalho de Conclusão de Curso (TCC) na FIEB.",
@@ -17,7 +18,7 @@ export const mockProjetos: Projeto[] = [
         imagemLista: ["https://picsum.photos/300/200", "https://picsum.photos/300/201"],
         tecnologias: ["Spring Boot", "Spring JPA", "Spring Security", "Thymeleaf", "SQL"],
     }
-,    
+    ,
     {
         id: 2,
         titulo: "Projeto 2",
