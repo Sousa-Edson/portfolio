@@ -1,0 +1,22 @@
+<section class="mx-auto mt-3   py-16">
+    <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-6">Sou formado em</h2>
+
+        <div *ngFor="let formacao of formacoes" class="bg-white shadow rounded-lg p-4">
+            <div class=" flex justify-evenly">
+                <div class="flex items-start gap-4 mb-4">
+                    <i class="bi bi-geo-alt-fill text-blue-500 text-2xl"></i>
+                    <div>
+                        <p class="text-sm text-gray-700">{{ formacao.endereco }}</p>
+                        <p class="text-sm text-gray-600">{{ formacao.bairro }}</p>
+                        <p class="text-sm text-gray-600">{{ formacao.cidade }}</p>
+                    </div>
+                </div>
+                <div class="justify-start">
+                    <h3 class="text-lg justify-start font-semibold text-gray-800">{{ formacao.titulo }}</h3>
+                    <p class="text-sm text-gray-700">{{ formacao.descricao }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
