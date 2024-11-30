@@ -3,22 +3,21 @@ import { Projeto } from "./projeto-interface";
 export const mockProjetos: Projeto[] = [
     {
         id: 1,
-        titulo: "Projeto 1",
-        descricaoResumida: "Este projeto é um exemplo de como criar algo incrível usando Angular.",
+        titulo: "Adote Fácil",
+        descricaoResumida: "Este projeto foi feito como TCC na FIEB.",
         descricaoCompleta: [
-            "O Projeto 1 é uma aplicação completa desenvolvida com Angular.",
-            "Demonstra como criar soluções modernas e escaláveis para a web.",
-            "Inclui práticas avançadas de gerenciamento de estado e integração com APIs RESTful."
+            "O projeto é uma aplicação web desenvolvida como Trabalho de Conclusão de Curso (TCC) na FIEB.",
+            "Utilizamos os recursos disponíveis na escola para criar o projeto.",
+            "O sistema foi desenvolvido usando Spring Boot, Spring JPA e Spring Security para a segurança e persistência de dados.",
+            "As telas foram renderizadas utilizando o Thymeleaf, proporcionando uma interface amigável e funcional.",
+            "Foi implementado um banco de dados SQL na nuvem, permitindo que os mesmos dados fossem compartilhados tanto na versão web quanto na versão mobile.",
+            "Este projeto visa tratar a adoção de animais abandonados, ajudando pessoas a encontrar animais que realmente precisam de um lar."
         ],
-        imagemPrincipal: "https://picsum.photos/300",
+        imagemPrincipal: "./../../assets/img/projeto/1/Adota-Facil.png",
         imagemLista: ["https://picsum.photos/300/200", "https://picsum.photos/300/201"],
-        tecnologias: ["Angular", "TypeScript", "JavaScript"],
-        videoPrincipal: "https://www.youtube.com/embed/1_CmuiKie0o?si=C_VQRGxR7-874CX-",
-        videoLista: [
-            "https://www.youtube.com/embed/1_CmuiKie0o?si=C_VQRGxR7-874CX-",
-            "https://www.youtube.com/embed/3tmd-ClpJxA"
-        ]
-    },
+        tecnologias: ["Spring Boot", "Spring JPA", "Spring Security", "Thymeleaf", "SQL"],
+    }
+,    
     {
         id: 2,
         titulo: "Projeto 2",
