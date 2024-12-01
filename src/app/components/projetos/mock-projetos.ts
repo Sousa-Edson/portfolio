@@ -17,11 +17,12 @@ export const mockProjetos: Projeto[] = [
         imagemPrincipal: "./../../assets/img/projeto/1/Adota-Facil.png",
         imagemLista: ["./../../assets/img/projeto/1/adocao-1.png", "./../../assets/img/projeto/1/adocao-2.png", "./../../assets/img/projeto/1/adocao-3.png"],
         tecnologias: ["Spring Boot", "Spring JPA", "Spring Security", "Thymeleaf", "SQL"],
+        videoPrincipal: "https://www.youtube.com/embed/RXEyIZptA48?si=Zfl2XqmW1Aiu0Pw0",
     }
     ,
     {
         id: 2,
-        titulo: "Projeto 2",
+        titulo: "Meu portfólio",
         descricaoResumida: "Um portfólio interativo e moderno desenvolvido com Angular e Tailwind CSS, para exibir meus projetos .",
         descricaoCompleta: [
             "Este projeto é o meu portfólio pessoal, criado para exibir os sistemas e soluções que desenvolvi ao longo da minha jornada como programador.",
@@ -47,47 +48,56 @@ export const mockProjetos: Projeto[] = [
     },
     {
         id: 3,
-        titulo: "Projeto 3",
-        descricaoResumida: "Plataforma para análise de dados, criada com Python e ferramentas de visualização.",
+        titulo: "Sys Estoque Lite",
+        descricaoResumida: "Um projeto feito para atender a necessidade da empresa que trabalho.",
         descricaoCompleta: [
-            "O Projeto 3 é uma plataforma de análise de dados que utiliza Python.",
-            "Com Pandas e Matplotlib, processa e visualiza grandes conjuntos de dados.",
-            "É uma ferramenta poderosa para análises interativas e relatórios visuais."
+            "O Sys Estoque Lite é uma aplicação de desktop desenvolvida em Java 1.8, utilizando a biblioteca gráfica Swing para criar uma interface de usuário intuitiva e eficiente. ",
+            "O sistema foi projetado para atender a uma necessidade específica da empresa onde o projeto foi implementado, com foco no gerenciamento de estoque de produtos. ",
+            "O banco de dados utilizado é o PostgreSQL 9.6, garantindo robustez e confiabilidade para o armazenamento e consulta de dados. ",
+            "Todo o código foi escrito sem o uso de frameworks ORM como Hibernate, com consultas SQL sendo gerenciadas diretamente pela aplicação.",
+            "O projeto foi desenvolvido na IDE NetBeans 8.2, conhecida por seu suporte sólido ao desenvolvimento Swing e Java."
+        ]
+        ,
+        imagemPrincipal: "./../../assets/img/projeto/3/imagem-1.png",
+        imagemLista: [
+            "./../../assets/img/projeto/3/imagem-2.png",
+            "./../../assets/img/projeto/3/imagem-3.png",
+            "./../../assets/img/projeto/3/imagem-4.png",
+            "./../../assets/img/projeto/3/imagem-5.png",
+            "./../../assets/img/projeto/3/imagem-6.png",
+            "./../../assets/img/projeto/3/imagem-7.png",
+            "./../../assets/img/projeto/3/imagem-8.png",
+            "./../../assets/img/projeto/3/imagem-9.png"
         ],
-        imagemPrincipal: "https://picsum.photos/300",
-        imagemLista: ["https://picsum.photos/300/204", "https://picsum.photos/300/205"],
-        tecnologias: ["Python", "Pandas", "Matplotlib"],
-        videoPrincipal: "https://www.youtube.com/embed/1_CmuiKie0o?si=C_VQRGxR7-874CX-"
+        tecnologias: ["Java", "PostgreSql", "NetBeans"],
+        videoPrincipal: "https://www.youtube.com/embed/xj0BrPkDEJA?si=qe-EZ3n30nTDGUmb",
+        videoLista: [
+            "https://www.youtube.com/embed/xj0BrPkDEJA?si=qe-EZ3n30nTDGUmb",
+        ]
     },
     {
         id: 4,
-        titulo: "Projeto 4",
-        descricaoResumida: "Aplicação para gestão de tarefas, desenvolvida com React e Firebase.",
+        titulo: "Academico Login",
+        descricaoResumida: "Projeto desenvolvido durante as aulas do professor Rogério, com o objetivo de praticar o uso do Spring Security e JWT para autenticação e autorização.",
         descricaoCompleta: [
-            "O Projeto 4 é uma ferramenta de produtividade para gestão de tarefas.",
-            "Utiliza React para uma interface moderna e Firebase para dados em tempo real.",
-            "Permite colaboração em equipe com sincronização instantânea."
+            "O projeto 'Academico Login' é uma aplicação desenvolvida utilizando Spring Boot, com foco na implementação de autenticação e autorização usando o Spring Security e JWT (JSON Web Tokens).",
+            "O sistema foi projetado para permitir a segurança na gestão de usuários, onde as requisições à API são autenticadas com tokens JWT, proporcionando uma abordagem moderna e escalável para controle de acesso.",
+            "A aplicação foi construída utilizando o Spring Security para gerenciar as permissões de acesso de maneira granular, e o Spring Data JPA para interagir com o banco de dados de forma eficiente.",
+            "O banco de dados utilizado foi o PostgreSQL 9.6, que garante robustez e confiabilidade no armazenamento e consulta dos dados. A integração entre o Spring Data JPA e o PostgreSQL permite que o sistema opere de maneira rápida e com boa performance.",
+            "Todo o código foi desenvolvido na IDE NetBeans 8.2, que oferece um excelente suporte ao desenvolvimento com Spring, facilitando a integração de dependências e o gerenciamento do projeto.",
+            "Além da implementação de Spring Security e JWT, o projeto também utiliza a arquitetura RESTful, com endpoints que fornecem acesso a dados sensíveis de forma segura e eficiente."
         ],
-        imagemPrincipal: "https://picsum.photos/300",
-        imagemLista: ["https://picsum.photos/300/206", "https://picsum.photos/300/207"],
-        tecnologias: ["React", "JavaScript", "Firebase"]
-    },
-    {
-        id: 5,
-        titulo: "Projeto 5",
-        descricaoResumida: "Sistema de controle de estoque com integração de API RESTful, utilizando Node.js e MongoDB.",
-        descricaoCompleta: [
-            "O Projeto 5 é um sistema de controle de estoque baseado em Node.js.",
-            "Integra APIs RESTful para operações rápidas e escaláveis.",
-            "Utiliza MongoDB como banco de dados e autenticação JWT para segurança."
+        imagemPrincipal: "./../../assets/img/projeto/4/imagem-1.png",
+        imagemLista: [
+            "./../../assets/img/projeto/4/imagem-2.png",
+            "./../../assets/img/projeto/4/imagem-3.png",
+            "./../../assets/img/projeto/4/imagem-4.png"
         ],
-        imagemPrincipal: "https://picsum.photos/300",
-        imagemLista: ["https://picsum.photos/300/208", "https://picsum.photos/300/209"],
-        tecnologias: ["Node.js", "Express", "MongoDB"],
-        videoPrincipal: "https://www.youtube.com/embed/1_CmuiKie0o?si=C_VQRGxR7-874CX-",
+        tecnologias: ["Java", "Sql Server", "Spring Data", "Spring Security", "JWT"],
+        videoPrincipal: "https://www.youtube.com/embed/yYnqJ-psjCI?si=Df__g3rRwz2zPsQC",
         videoLista: [
-            "https://www.youtube.com/embed/1_CmuiKie0o?si=C_VQRGxR7-874CX-",
-            "https://www.youtube.com/embed/1_CmuiKie0o?si=C_VQRGxR7-874CX-"
+            "https://www.youtube.com/embed/yYnqJ-psjCI?si=Df__g3rRwz2zPsQC"
         ]
     }
+
 ];
