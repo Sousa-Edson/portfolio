@@ -15,7 +15,7 @@ export const mockProjetos: Projeto[] = [
             "Este projeto visa tratar a adoção de animais abandonados, ajudando pessoas a encontrar animais que realmente precisam de um lar."
         ],
         imagemPrincipal: "./../../assets/img/projeto/1/Adota-Facil.png",
-        imagemLista: ["https://picsum.photos/300/200", "https://picsum.photos/300/201"],
+        imagemLista: ["./../../assets/img/projeto/1/adocao-1.png", "./../../assets/img/projeto/1/adocao-2.png", "./../../assets/img/projeto/1/adocao-3.png"],
         tecnologias: ["Spring Boot", "Spring JPA", "Spring Security", "Thymeleaf", "SQL"],
     }
     ,

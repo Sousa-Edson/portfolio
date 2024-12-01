@@ -8,7 +8,8 @@
   </p>
 
   <!-- Imagem Principal -->
-  <img [src]="projeto.imagemPrincipal" [alt]="projeto.titulo" class="w-full h-80 object-cover my-4 rounded-lg" />
+  <img [src]="projeto.imagemPrincipal" [alt]="projeto.titulo"
+    class="w-full h-80 object-cover my-4 rounded-lg cursor-pointer" (click)="abrirModal(projeto.imagemPrincipal)" />
 
   <!-- Descrição Completa -->
   <div class="text-gray-600 space-y-4">
@@ -29,9 +30,10 @@
   @if(projeto.imagemLista && projeto.imagemLista.length > 0){
   <div class="mt-6">
     <h3 class="text-2xl font-semibold mb-3">Imagens</h3>
-    <div class="flex gap-4 overflow-x-auto">
+    <div class="flex gap-4 overflow-x-auto ">
       <img *ngFor="let imagem of projeto.imagemLista" [src]="imagem" [alt]="'Imagem do Projeto'"
-        class="w-32 h-32 object-cover rounded-lg shadow-md" />
+        (click)="abrirModal(imagem)"
+        class="w-32 h-32 object-cover rounded-lg shadow-md cursor-pointer  border-0 hover:border-4 hover:border-blue-400  " />
     </div>
   </div>
   }
@@ -66,4 +68,9 @@
       {{ tecnologia }}
     </span>
   </div>
-</div>
+  <div class="mt-10 text-center">
+    <app-botao-mais-projetos />
+  </div>
+
+  <!-- Modal -->
+  <app-imagem-modal [imagemAtual]="imagemAtual" [modalAberto]="modalAberto" (modalFecha)="fecharModal()" />
