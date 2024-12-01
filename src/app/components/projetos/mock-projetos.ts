@@ -23,6 +23,7 @@ export const mockProjetos: Projeto[] = [
     {
         id: 2,
         titulo: "Meu portfólio",
+        link: "https://github.com/Sousa-Edson/portfolio",
         descricaoResumida: "Um portfólio interativo e moderno desenvolvido com Angular e Tailwind CSS, para exibir meus projetos .",
         descricaoCompleta: [
             "Este projeto é o meu portfólio pessoal, criado para exibir os sistemas e soluções que desenvolvi ao longo da minha jornada como programador.",
@@ -49,6 +50,7 @@ export const mockProjetos: Projeto[] = [
     {
         id: 3,
         titulo: "Sys Estoque Lite",
+        link: "https://github.com/Sousa-Edson/SysEstoque_Lite",
         descricaoResumida: "Um projeto feito para atender a necessidade da empresa que trabalho.",
         descricaoCompleta: [
             "O Sys Estoque Lite é uma aplicação de desktop desenvolvida em Java 1.8, utilizando a biblioteca gráfica Swing para criar uma interface de usuário intuitiva e eficiente. ",
@@ -78,6 +80,7 @@ export const mockProjetos: Projeto[] = [
     {
         id: 4,
         titulo: "Academico Login",
+        link: "https://github.com/Sousa-Edson/academicologin",
         descricaoResumida: "Projeto desenvolvido durante as aulas do professor Rogério, com o objetivo de praticar o uso do Spring Security e JWT para autenticação e autorização.",
         descricaoCompleta: [
             "O projeto 'Academico Login' é uma aplicação desenvolvida utilizando Spring Boot, com foco na implementação de autenticação e autorização usando o Spring Security e JWT (JSON Web Tokens).",
