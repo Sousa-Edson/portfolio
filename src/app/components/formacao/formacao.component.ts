@@ -17,14 +17,16 @@ export class FormacaoComponent {
       bairro: 'Jardim Belval',
       cidade: 'Barueri - SP',
       titulo: 'Técnico de Informática',
-      descricao: 'Pelo Instituto Técnico de Barueri - BRASÍLIO FLORES DE AZEVEDO.'
+      descricao: 'Pelo Instituto Técnico de Barueri - BRASÍLIO FLORES DE AZEVEDO.',
+      fundo: '/assets/img/informatica_banner.png'
     },
     {
       endereco: 'R. Tomé de Souza, 259',
       bairro: 'Parque Imperial',
       cidade: 'Barueri - SP',
       titulo: 'Técnico de Logística',
-      descricao: 'Pelo Instituto Técnico de Barueri - PROF. MOACYR DOMINGOS SÁVIO VERONEZI.'
+      descricao: 'Pelo Instituto Técnico de Barueri - PROF. MOACYR DOMINGOS SÁVIO VERONEZI.',
+      fundo: '/assets/img/logistica_banner.png'
     }
   ];
 }
