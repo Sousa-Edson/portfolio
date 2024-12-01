@@ -22,19 +22,27 @@ export const mockProjetos: Projeto[] = [
     {
         id: 2,
         titulo: "Projeto 2",
-        descricaoResumida: "Um sistema completo para gerenciamento de clientes, desenvolvido com Java e Spring.",
+        descricaoResumida: "Um portfólio interativo e moderno desenvolvido com Angular e Tailwind CSS, para exibir meus projetos .",
         descricaoCompleta: [
-            "O Projeto 2 é um sistema robusto para gerenciamento de clientes.",
-            "Construído com Java e Spring Framework, suporta integração com bancos de dados SQL.",
-            "Oferece autenticação segura e escalabilidade para grandes volumes de dados."
-        ],
-        imagemPrincipal: "https://picsum.photos/300",
-        imagemLista: ["https://picsum.photos/300/202", "https://picsum.photos/300/203"],
-        tecnologias: ["Java", "Spring", "PostgreSQL"],
-        videoPrincipal: "https://www.youtube.com/embed/1_CmuiKie0o?si=C_VQRGxR7-874CX-",
+            "Este projeto é o meu portfólio pessoal, criado para exibir os sistemas e soluções que desenvolvi ao longo da minha jornada como programador.",
+            "O portfólio foi construído com Angular e Tailwind CSS, destacando a combinação de tecnologias modernas para criar uma interface responsiva, intuitiva e visualmente atraente.",
+            "Ainda está em desenvolvimento, mas já conta com espaço para apresentação detalhada de projetos, tecnologias utilizadas e vídeos demonstrativos de cada trabalho.",
+            "Planejo expandir o portfólio com mais projetos, conteúdos informativos e integrações que mostrem minha evolução e capacidades como desenvolvedor."
+        ]
+        ,
+        imagemPrincipal: "./../../assets/img/projeto/2/imagem-1.png",
+        imagemLista: [
+            "./../../assets/img/projeto/2/imagem-2.png",
+            "./../../assets/img/projeto/2/imagem-3.png",
+            "./../../assets/img/projeto/2/imagem-4.png",
+            "./../../assets/img/projeto/2/imagem-5.png",
+            "./../../assets/img/projeto/2/imagem-6.png",
+            "./../../assets/img/projeto/2/imagem-7.png"],
+        tecnologias: ["HTML", "Tailwind CSS", "Angular"],
+        videoPrincipal: "https://www.youtube.com/embed/KwUZwG5_Kd4?si=C30TAo_JqwqGI5QQ",
         videoLista: [
-            "https://www.youtube.com/embed/1_CmuiKie0o?si=C_VQRGxR7-874CX-",
-            "https://www.youtube.com/embed/dQw4w9WgXcQ"
+            "https://www.youtube.com/embed/KwUZwG5_Kd4?si=C30TAo_JqwqGI5QQ",
+            "https://www.youtube.com/embed/itLxp_E8NCQ?si=QjMPB_tn_PDsbh9c"
         ]
     },
     {
