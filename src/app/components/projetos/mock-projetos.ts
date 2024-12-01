@@ -101,6 +101,34 @@ export const mockProjetos: Projeto[] = [
         videoLista: [
             "https://www.youtube.com/embed/yYnqJ-psjCI?si=Df__g3rRwz2zPsQC"
         ]
+    },
+    {
+        id: 5,
+        titulo: "InDecor",
+        link: "https://github.com/Sousa-Edson/InDecor",
+        web: "https://sousa-edson.github.io/InDecor/",
+        descricaoResumida: "InDecor é um projeto de site de decoração desenvolvido com HTML e CSS puro.",
+        descricaoCompleta: [
+            "InDecor é um site de decoração simples e funcional, desenvolvido utilizando HTML e CSS puro, com foco em um design limpo e elegante.",
+            "O projeto foi criado para ser uma plataforma de inspiração para quem busca ideias de decoração, com um layout visualmente atraente e uma navegação fácil.",
+            "Utilizando apenas HTML e CSS, o site foi projetado para ser responsivo, garantindo uma boa experiência de uso em diferentes dispositivos, como desktops, tablets e smartphones.",
+            "A interface foi desenvolvida de forma intuitiva, com a intenção de proporcionar uma navegação agradável e sem complexidade para os usuários.",
+            "O código foi escrito e estruturado de maneira simples e eficiente, utilizando práticas recomendadas para desenvolvimento de sites com HTML e CSS, sem a necessidade de frameworks ou bibliotecas externas.",
+            "O projeto foi feito como parte de um aprendizado prático durante as aulas de Matheus Battisti, proporcionando uma experiência valiosa para quem deseja entender os fundamentos do design de sites com HTML e CSS."
+        ],
+        imagemPrincipal: "./../../assets/img/projeto/5/imagem-1.png",
+        imagemLista: [
+            "./../../assets/img/projeto/5/imagem-1.png",
+            "./../../assets/img/projeto/5/imagem-2.png",
+            "./../../assets/img/projeto/5/imagem-3.png",
+            "./../../assets/img/projeto/5/imagem-4.png"
+        ],
+        tecnologias: ["HTML", "CSS", "Visual Studio Code"],
+        videoPrincipal: "https://www.youtube.com/embed/p6DBoreUUiE?si=t4TPzjOxTf1-jwSj",
+        videoLista: [
+            "https://www.youtube.com/embed/p6DBoreUUiE?si=t4TPzjOxTf1-jwSj"
+        ]
     }
+
 
 ];
