@@ -14,8 +14,8 @@ export const mockProjetos: Projeto[] = [
             "Foi implementado um banco de dados SQL na nuvem, permitindo que os mesmos dados fossem compartilhados tanto na versão web quanto na versão mobile.",
             "Este projeto visa tratar a adoção de animais abandonados, ajudando pessoas a encontrar animais que realmente precisam de um lar."
         ],
-        imagemPrincipal: "./../../assets/img/projeto/1/Adota-Facil.png",
-        imagemLista: ["./../../assets/img/projeto/1/adocao-1.png", "./../../assets/img/projeto/1/adocao-2.png", "./../../assets/img/projeto/1/adocao-3.png"],
+        imagemPrincipal: "assets/img/projeto/1/Adota-Facil.png",
+        imagemLista: ["assets/img/projeto/1/adocao-1.png", "assets/img/projeto/1/adocao-2.png", "assets/img/projeto/1/adocao-3.png"],
         tecnologias: ["Spring Boot", "Spring JPA", "Spring Security", "Thymeleaf", "SQL"],
         videoPrincipal: "https://www.youtube.com/embed/RXEyIZptA48?si=Zfl2XqmW1Aiu0Pw0",
     }
@@ -32,14 +32,14 @@ export const mockProjetos: Projeto[] = [
             "Planejo expandir o portfólio com mais projetos, conteúdos informativos e integrações que mostrem minha evolução e capacidades como desenvolvedor."
         ]
         ,
-        imagemPrincipal: "./../../assets/img/projeto/2/imagem-1.png",
+        imagemPrincipal: "assets/img/projeto/2/imagem-1.png",
         imagemLista: [
-            "./../../assets/img/projeto/2/imagem-2.png",
-            "./../../assets/img/projeto/2/imagem-3.png",
-            "./../../assets/img/projeto/2/imagem-4.png",
-            "./../../assets/img/projeto/2/imagem-5.png",
-            "./../../assets/img/projeto/2/imagem-6.png",
-            "./../../assets/img/projeto/2/imagem-7.png"],
+            "assets/img/projeto/2/imagem-2.png",
+            "assets/img/projeto/2/imagem-3.png",
+            "assets/img/projeto/2/imagem-4.png",
+            "assets/img/projeto/2/imagem-5.png",
+            "assets/img/projeto/2/imagem-6.png",
+            "assets/img/projeto/2/imagem-7.png"],
         tecnologias: ["HTML", "Tailwind CSS", "Angular"],
         videoPrincipal: "https://www.youtube.com/embed/KwUZwG5_Kd4?si=C30TAo_JqwqGI5QQ",
         videoLista: [
@@ -60,16 +60,16 @@ export const mockProjetos: Projeto[] = [
             "O projeto foi desenvolvido na IDE NetBeans 8.2, conhecida por seu suporte sólido ao desenvolvimento Swing e Java."
         ]
         ,
-        imagemPrincipal: "./../../assets/img/projeto/3/imagem-1.png",
+        imagemPrincipal: "assets/img/projeto/3/imagem-1.png",
         imagemLista: [
-            "./../../assets/img/projeto/3/imagem-2.png",
-            "./../../assets/img/projeto/3/imagem-3.png",
-            "./../../assets/img/projeto/3/imagem-4.png",
-            "./../../assets/img/projeto/3/imagem-5.png",
-            "./../../assets/img/projeto/3/imagem-6.png",
-            "./../../assets/img/projeto/3/imagem-7.png",
-            "./../../assets/img/projeto/3/imagem-8.png",
-            "./../../assets/img/projeto/3/imagem-9.png"
+            "assets/img/projeto/3/imagem-2.png",
+            "assets/img/projeto/3/imagem-3.png",
+            "assets/img/projeto/3/imagem-4.png",
+            "assets/img/projeto/3/imagem-5.png",
+            "assets/img/projeto/3/imagem-6.png",
+            "assets/img/projeto/3/imagem-7.png",
+            "assets/img/projeto/3/imagem-8.png",
+            "assets/img/projeto/3/imagem-9.png"
         ],
         tecnologias: ["Java", "PostgreSql", "NetBeans"],
         videoPrincipal: "https://www.youtube.com/embed/xj0BrPkDEJA?si=qe-EZ3n30nTDGUmb",
@@ -90,11 +90,11 @@ export const mockProjetos: Projeto[] = [
             "Todo o código foi desenvolvido na IDE NetBeans 8.2, que oferece um excelente suporte ao desenvolvimento com Spring, facilitando a integração de dependências e o gerenciamento do projeto.",
             "Além da implementação de Spring Security e JWT, o projeto também utiliza a arquitetura RESTful, com endpoints que fornecem acesso a dados sensíveis de forma segura e eficiente."
         ],
-        imagemPrincipal: "./../../assets/img/projeto/4/imagem-1.png",
+        imagemPrincipal: "assets/img/projeto/4/imagem-1.png",
         imagemLista: [
-            "./../../assets/img/projeto/4/imagem-2.png",
-            "./../../assets/img/projeto/4/imagem-3.png",
-            "./../../assets/img/projeto/4/imagem-4.png"
+            "assets/img/projeto/4/imagem-2.png",
+            "assets/img/projeto/4/imagem-3.png",
+            "assets/img/projeto/4/imagem-4.png"
         ],
         tecnologias: ["Java", "Sql Server", "Spring Data", "Spring Security", "JWT"],
         videoPrincipal: "https://www.youtube.com/embed/yYnqJ-psjCI?si=Df__g3rRwz2zPsQC",
@@ -116,12 +116,12 @@ export const mockProjetos: Projeto[] = [
             "O código foi escrito e estruturado de maneira simples e eficiente, utilizando práticas recomendadas para desenvolvimento de sites com HTML e CSS, sem a necessidade de frameworks ou bibliotecas externas.",
             "O projeto foi feito como parte de um aprendizado prático durante as aulas de Matheus Battisti, proporcionando uma experiência valiosa para quem deseja entender os fundamentos do design de sites com HTML e CSS."
         ],
-        imagemPrincipal: "./../../assets/img/projeto/5/imagem-1.png",
+        imagemPrincipal: "assets/img/projeto/5/imagem-1.png",
         imagemLista: [
-            "./../../assets/img/projeto/5/imagem-1.png",
-            "./../../assets/img/projeto/5/imagem-2.png",
-            "./../../assets/img/projeto/5/imagem-3.png",
-            "./../../assets/img/projeto/5/imagem-4.png"
+            "assets/img/projeto/5/imagem-1.png",
+            "assets/img/projeto/5/imagem-2.png",
+            "assets/img/projeto/5/imagem-3.png",
+            "assets/img/projeto/5/imagem-4.png"
         ],
         tecnologias: ["HTML", "CSS", "Visual Studio Code"],
         videoPrincipal: "https://www.youtube.com/embed/p6DBoreUUiE?si=t4TPzjOxTf1-jwSj",

@@ -13,11 +13,11 @@ import { Component } from '@angular/core';
 export class CertificacaoComponent {
   certificacoes = [
     {
-      caminho: '/assets/img/certificacao/aws-re-start-graduate.png',
+      caminho: 'assets/img/certificacao/aws-re-start-graduate.png',
       titulo: 'AWS Certified Solutions Start'
     },
     {
-      caminho: '/assets/img/certificacao/aws-certified-cloud-practitioner.png',
+      caminho: 'assets/img/certificacao/aws-certified-cloud-practitioner.png',
       titulo: 'AWS Certified Cloud Practitioner'
     },
   ]
