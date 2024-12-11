@@ -107,7 +107,7 @@ export const mockProjetos: Projeto[] = [
         titulo: "InDecor",
         link: "https://github.com/Sousa-Edson/InDecor",
         web: "https://sousa-edson.github.io/InDecor/",
-        descricaoResumida: "InDecor é um projeto de site de decoração desenvolvido com HTML e CSS puro.",
+        descricaoResumida: "InDecor é um projeto de site de decoração desenvolvido com HTML e CSS puro. Codando de maneira simples para aprender mais sobre o css e a estrutura do html",
         descricaoCompleta: [
             "InDecor é um site de decoração simples e funcional, desenvolvido utilizando HTML e CSS puro, com foco em um design limpo e elegante.",
             "O projeto foi criado para ser uma plataforma de inspiração para quem busca ideias de decoração, com um layout visualmente atraente e uma navegação fácil.",
@@ -128,7 +128,56 @@ export const mockProjetos: Projeto[] = [
         videoLista: [
             "https://www.youtube.com/embed/p6DBoreUUiE?si=t4TPzjOxTf1-jwSj"
         ]
+    },
+    {
+        id: 6,
+        titulo: "Angular Blog",
+        link: "https://github.com/Sousa-Edson/angular-blog",
+        web: "https://sousa-edson.github.io/angular-blog/",
+        descricaoResumida: "Projeto desenvolvido durante estudos na plataforma Dio.me, utilizando Angular 17 e explorando novas diretivas ...",
+        descricaoCompleta: [
+            "Angular Blog é uma aplicação de blog simples e funcional, desenvolvida com o framework Angular 17.",
+            "O projeto foi criado durante os estudos na Dio.me, com o objetivo de consolidar conhecimentos e explorar novas funcionalidades do Angular.",
+            "Entre os recursos implementados, estão as novas diretivas `@for` e `@if`, utilizadas para manipulação de loops e condicionais diretamente nos templates.",
+            "Os dados do blog foram simulados utilizando uma API mockada, proporcionando uma experiência completa de desenvolvimento frontend.",
+            "A aplicação foi configurada para rodar localmente utilizando Docker Compose, simplificando o processo de build e execução.",
+            "O projeto foi estilizado com foco em um design funcional e organizado, permitindo fácil navegação e boa experiência de usuário.",
+            "Além disso, o desenvolvimento foi estruturado seguindo boas práticas recomendadas, reforçando o aprendizado adquirido durante o curso."
+        ],
+        imagemPrincipal: "assets/img/projeto/6/imagem-1.png",
+        imagemLista: [
+            "assets/img/projeto/6/imagem-1.png",
+            "assets/img/projeto/6/imagem-2.png"
+        ],
+        tecnologias: ["Angular 17", "Docker Compose", "Visual Studio Code"],
+        videoPrincipal: "",
+        videoLista: []
+    },
+    {
+        id: 7,
+        titulo: "Angular Play Station Store",
+        link: "https://github.com/Sousa-Edson/angular-psn-store",
+        web: "https://sousa-edson.github.io/angular-psn-store/",
+        descricaoResumida: "Projeto desenvolvido durante estudos na plataforma Dio.me, utilizando Angular 17 e Tailwind CSS para criar uma loja inspirada na PlayStation Store.",
+        descricaoCompleta: [
+            "Angular Play Station Store é uma aplicação inspirada na loja da PlayStation, desenvolvida utilizando o framework Angular 17.",
+            "O projeto foi criado durante os estudos na Dio.me, e posteriormente refeito com a inclusão do Tailwind CSS para estilização moderna e responsiva.",
+            "Entre os recursos implementados, estão as novas diretivas `@for` e `@if` do Angular 17, utilizadas para manipulação de loops e condicionais diretamente nos templates.",
+            "Os dados foram simulados utilizando uma API mockada, permitindo a exibição dinâmica de produtos e detalhes na interface.",
+            "A aplicação foi configurada para rodar localmente utilizando Docker Compose, simplificando o processo de build e execução.",
+            "O uso do Tailwind CSS permitiu a criação de uma interface limpa, organizada e otimizada para dispositivos móveis.",
+            "Além disso, o projeto foi desenvolvido com foco em boas práticas, proporcionando uma base sólida para futuras implementações e aprimoramentos."
+        ],
+        imagemPrincipal: "assets/img/projeto/7/imagem-1.png",
+        imagemLista: [
+            "assets/img/projeto/7/imagem-1.png",
+            "assets/img/projeto/7/imagem-2.png"
+        ],
+        tecnologias: ["Angular 17", "Tailwind CSS", "Docker Compose", "Visual Studio Code"],
+        videoPrincipal: "",
+        videoLista: []
     }
+    
 
 
 ];
