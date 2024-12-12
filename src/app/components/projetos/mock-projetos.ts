@@ -176,8 +176,32 @@ export const mockProjetos: Projeto[] = [
         tecnologias: ["Angular 17", "Tailwind CSS", "Docker Compose", "Visual Studio Code"],
         videoPrincipal: "",
         videoLista: []
+    },
+    {
+        id: 8,
+        titulo: "Angular BuzzFeed Quiz",
+        link: "https://github.com/Sousa-Edson/angular-buzzfeed-quizz",
+        web: "https://sousa-edson.github.io/angular-buzzfeed-quizz/",
+        descricaoResumida: "Projeto desenvolvido durante aulas na Dio.me, inspirado no BuzzFeed Quiz, utilizando Angular 17 e Tailwind CSS para criar uma aplicação estilosa e funcional.",
+        descricaoCompleta: [
+            "Angular BuzzFeed Quiz é um projeto inspirado no BuzzFeed Quiz, desenvolvido durante as aulas do curso 'Criando um Clone do BuzzFeed com Angular' da Dio.me.",
+            "O projeto foi liderado pelo professor Felipe, onde tive a oportunidade de implementar personalizações e explorar novas técnicas e ferramentas.",
+            "Entre as principais modificações, destaque para o uso do Tailwind CSS, permitindo criar uma estilização moderna e limpa.",
+            "A aplicação foi desenvolvida com o Angular 17, utilizando recursos modernos como as novas diretivas para loops e condicionais.",
+            "Apesar de não ser idêntico ao original, a aplicação apresenta uma interface clean e funcional, ideal para explorar os conceitos aprendidos no curso.",
+            "Este projeto também foi uma ótima oportunidade para treinar o uso conjunto do Angular com Tailwind CSS, resultando em uma aplicação organizada e responsiva."
+        ],
+        imagemPrincipal: "assets/img/projeto/8/imagem-1.png",
+        imagemLista: [
+            "assets/img/projeto/8/imagem-1.png",
+            "assets/img/projeto/8/imagem-2.png"
+        ],
+        tecnologias: ["Angular 17", "Tailwind CSS", "Visual Studio Code"],
+        videoPrincipal: "",
+        videoLista: []
     }
-    
+
+
 
 
 ];
